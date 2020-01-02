@@ -1,0 +1,42 @@
+@keyframes eq {
+	from {
+		height: 100px
+	}
+	25% {
+		height: 50px;
+	}
+	50% {
+		height: 100px;
+	}
+	75% { 
+		height: 125px;
+	}
+	to {
+		height: 100px;
+	}
+}
+@keyframes eq2 {
+	from {
+		height: 100px
+	}
+	50% {
+		height: 60px;
+	}
+	to {
+		height: 100px;
+	}
+}
+@keyframes eq3 {
+	from {
+		height: 100px
+	}
+	50% {
+		height: 150px;
+	}
+	75% {
+		height: 175px;
+	}
+	to {
+		height: 100px;
+	}
+}
