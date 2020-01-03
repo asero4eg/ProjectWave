@@ -1,3 +1,4 @@
+/*Equalizer animations*/
 @keyframes eq {
 	from {
 		height: 100px
@@ -28,15 +29,50 @@
 }
 @keyframes eq3 {
 	from {
-		height: 100px
+		height: 100px;
+		border-bottom: 10px solid deeppink;
 	}
 	50% {
 		height: 150px;
+		border-bottom: 10px solid deeppink;
 	}
 	75% {
 		height: 175px;
+		border-bottom: 3px solid ;
 	}
 	to {
 		height: 100px;
+	}
+}
+@keyframes aa {
+	from {
+		height: 264px;
+		box-shadow: 2px -2px 0px #ff12dd,-2px 2px 0px #2c45ff;
+	}
+	to {
+		margin-top:2px;
+		height:267px;
+		box-shadow: -2px 2px 0px #ff12dd,2px -2px 0px #2c45ff;
+	}
+}
+@keyframes aa-rew {
+	from {
+		margin-top:2px;
+		height:267px;
+		box-shadow: 2px -2px 0px #ff12dd,-2px 2px 0px #2c45ff;
+	}
+	to {
+		height: 264px;
+		box-shadow: -2px 2px 0px #ff12dd,2px -2px 0px #2c45ff;
+	}
+}
+@keyframes grid{
+	from {
+		height: 40em;
+		margin-top: 20em;
+	}
+	to {
+		height: 44em;
+		margin-top: 18em;
 	}
 }
