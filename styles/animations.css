@@ -46,33 +46,49 @@
 }
 @keyframes aa {
 	from {
-		height: 264px;
 		box-shadow: 2px -2px 0px #ff12dd,-2px 2px 0px #2c45ff;
 	}
 	to {
-		margin-top:2px;
-		height:267px;
 		box-shadow: -2px 2px 0px #ff12dd,2px -2px 0px #2c45ff;
 	}
 }
 @keyframes aa-rew {
 	from {
-		margin-top:2px;
-		height:267px;
 		box-shadow: 2px -2px 0px #ff12dd,-2px 2px 0px #2c45ff;
 	}
 	to {
-		height: 264px;
 		box-shadow: -2px 2px 0px #ff12dd,2px -2px 0px #2c45ff;
 	}
 }
 @keyframes grid{
 	from {
+		height: 44em;
+		margin-top: 18em;
+	}
+	to {
 		height: 40em;
 		margin-top: 20em;
 	}
+}
+@keyframes city {
+	from {
+		background-position: 5px -230px;
+	}
+	50% {
+		background-position: 5px -240px;
+	}
 	to {
-		height: 44em;
-		margin-top: 18em;
+		background-position: 5px -230px;
+	}
+}
+@keyframes city2 {
+	from {
+		background-position: 153px -240px;
+	}
+	50% {
+		background-position: 153px -230px;
+	}
+	to {
+		background-position: 153px -240px;
 	}
 }
