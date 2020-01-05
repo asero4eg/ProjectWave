@@ -92,3 +92,11 @@
 		background-position: 153px -240px;
 	}
 }
+@keyframes trees {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -955px 0;
+	}
+}
